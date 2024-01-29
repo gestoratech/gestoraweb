@@ -1,0 +1,15 @@
+Colaboradores
+
+Campos:
+
+Nome, -- VARCHAR
+Email, -- VARCHAR
+Senha_Email, -- VARCHAR
+Skype, -- VARCHAR
+Senha_Skype, -- VARCHAR
+Gmail, -- VARCHAR
+Senha_Gmail, -- VARCHAR
+Usuario_Ambiente, VARCHAR
+Senha_Usuario_Ambiente VARCHAR
+
+Relação com a tabela de inventários
