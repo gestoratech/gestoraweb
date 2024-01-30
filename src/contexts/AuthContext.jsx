@@ -10,7 +10,7 @@ export function AuthProvider({ children }) {
 
   function Logout() {
     localStorage.removeItem('@gestora:token')
-    window.location.href = '/login'
+    window.location.href = '/'
   }
 
   async function Login({ email, password }) {
