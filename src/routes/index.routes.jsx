@@ -26,17 +26,17 @@ export function Router() {
             <Login/>
           </AuthenticatedRoutes>
         }/>
-        <Route path='https://gestoraweb.onrender.com/usuarios/sistema' element={
+        <Route path='/usuarios/sistema' element={
           <PrivateRoutes>
             <UserView/>
           </PrivateRoutes>
         }/>
-        <Route path='https://gestoraweb.onrender.com/usuarios/colaboradores' element={
+        <Route path='/usuarios/colaboradores' element={
           <PrivateRoutes>
             <CollaboratorView/>
           </PrivateRoutes>
         }/>
-        <Route path='https://gestoraweb.onrender.com/inventarios/maquinas' element={
+        <Route path='/inventarios/maquinas' element={
           <PrivateRoutes>
             <InventoryView/>
           </PrivateRoutes>
